@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD12C09E16199A4700467BAF /* IS24SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12C09C16199A4700467BAF /* IS24SecondViewController.m */; };
+		FD12C09F16199A4700467BAF /* IS24SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD12C09D16199A4700467BAF /* IS24SecondViewController.xib */; };
+		FD12C0A316199B7D00467BAF /* IS24AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3073B15EF5ED00002A2A1 /* IS24AppDelegate.m */; };
+		FD12C0A416199B7D00467BAF /* IS24ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3076315EF61730002A2A1 /* IS24ExampleViewController.m */; };
+		FD12C0A516199B7D00467BAF /* IS24SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12C09C16199A4700467BAF /* IS24SecondViewController.m */; };
+		FD12C0A716199B7D00467BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072B15EF5ED00002A2A1 /* UIKit.framework */; };
+		FD12C0A816199B7D00467BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072D15EF5ED00002A2A1 /* Foundation.framework */; };
+		FD12C0A916199B7D00467BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */; };
+		FD12C0AC16199B7D00467BAF /* IS24ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD3076415EF61730002A2A1 /* IS24ExampleViewController.xib */; };
+		FD12C0AE16199B7D00467BAF /* IS24SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD12C09D16199A4700467BAF /* IS24SecondViewController.xib */; };
+		FD12C0B916199C5300467BAF /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD12C086161998BB00467BAF /* libKIF.a */; };
+		FD12C0CB16199CD000467BAF /* IS24IntegrationTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12C0CA16199CD000467BAF /* IS24IntegrationTestController.m */; };
+		FD12C0CC16199D5400467BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3073715EF5ED00002A2A1 /* main.m */; };
+		FD12C0CF16199DB400467BAF /* IS24FirstTestScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12C0CE16199DB400467BAF /* IS24FirstTestScenario.m */; };
+		FD12C0D01619A9EB00467BAF /* IS24SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12C09C16199A4700467BAF /* IS24SecondViewController.m */; };
+		FD4A188B16344DA600DBD58D /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4A188A16344DA600DBD58D /* libOCMock.a */; };
+		FD4A189016344E2100DBD58D /* IS24SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188F16344E2100DBD58D /* IS24SampleObject.m */; };
+		FD4A189316344E4600DBD58D /* IS24ExampleMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188D16344DE000DBD58D /* IS24ExampleMockTest.m */; };
+		FD4A189416344E5E00DBD58D /* IS24SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188F16344E2100DBD58D /* IS24SampleObject.m */; };
+		FDD3072C15EF5ED00002A2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072B15EF5ED00002A2A1 /* UIKit.framework */; };
+		FDD3072E15EF5ED00002A2A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072D15EF5ED00002A2A1 /* Foundation.framework */; };
+		FDD3073015EF5ED00002A2A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */; };
+		FDD3073615EF5ED00002A2A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD3073415EF5ED00002A2A1 /* InfoPlist.strings */; };
+		FDD3073815EF5ED00002A2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3073715EF5ED00002A2A1 /* main.m */; };
+		FDD3073C15EF5ED00002A2A1 /* IS24AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3073B15EF5ED00002A2A1 /* IS24AppDelegate.m */; };
+		FDD3074E15EF5F390002A2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072B15EF5ED00002A2A1 /* UIKit.framework */; };
+		FDD3074F15EF5F390002A2A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072D15EF5ED00002A2A1 /* Foundation.framework */; };
+		FDD3075015EF5F390002A2A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */; };
+		FDD3075615EF5F3A0002A2A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD3075415EF5F3A0002A2A1 /* InfoPlist.strings */; };
+		FDD3075815EF5F3A0002A2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3075715EF5F3A0002A2A1 /* main.m */; };
+		FDD3076115EF5F4A0002A2A1 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3076015EF5F4A0002A2A1 /* GHUnitIOS.framework */; };
+		FDD3076515EF61730002A2A1 /* IS24ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3076315EF61730002A2A1 /* IS24ExampleViewController.m */; };
+		FDD3076615EF61730002A2A1 /* IS24ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD3076415EF61730002A2A1 /* IS24ExampleViewController.xib */; };
+		FDD3076715EF61780002A2A1 /* IS24ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3076315EF61730002A2A1 /* IS24ExampleViewController.m */; };
+		FDD3076C15EF628E0002A2A1 /* IS24ExampleViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD3076B15EF61F50002A2A1 /* IS24ExampleViewControllerTest.m */; };
+		FDD3076D15EF62E60002A2A1 /* IS24ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD3076415EF61730002A2A1 /* IS24ExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD12C086161998BB00467BAF /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = lib/libKIF.a; sourceTree = "<group>"; };
+		FD12C09B16199A4700467BAF /* IS24SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24SecondViewController.h; sourceTree = "<group>"; };
+		FD12C09C16199A4700467BAF /* IS24SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24SecondViewController.m; sourceTree = "<group>"; };
+		FD12C09D16199A4700467BAF /* IS24SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IS24SecondViewController.xib; sourceTree = "<group>"; };
+		FD12C0B216199B7D00467BAF /* CI-Demo-Integration-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-Demo-Integration-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD12C0B416199B7E00467BAF /* CI-Demo-Integration-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CI-Demo-Integration-Tests-Info.plist"; path = "/data/home/fschulze/Dropbox/IS24/Konferenzen/CI-Demo/CI-Demo-Integration-Tests-Info.plist"; sourceTree = "<absolute>"; };
+		FD12C0C916199CD000467BAF /* IS24IntegrationTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24IntegrationTestController.h; sourceTree = "<group>"; };
+		FD12C0CA16199CD000467BAF /* IS24IntegrationTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24IntegrationTestController.m; sourceTree = "<group>"; };
+		FD12C0CD16199DB400467BAF /* IS24FirstTestScenario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24FirstTestScenario.h; sourceTree = "<group>"; };
+		FD12C0CE16199DB400467BAF /* IS24FirstTestScenario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24FirstTestScenario.m; sourceTree = "<group>"; };
+		FD4A188A16344DA600DBD58D /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		FD4A188D16344DE000DBD58D /* IS24ExampleMockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24ExampleMockTest.m; sourceTree = "<group>"; };
+		FD4A188E16344E2100DBD58D /* IS24SampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24SampleObject.h; sourceTree = "<group>"; };
+		FD4A188F16344E2100DBD58D /* IS24SampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24SampleObject.m; sourceTree = "<group>"; };
+		FD73D1FC16353D0F0045E12F /* pom.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		FDD3072715EF5ED00002A2A1 /* CI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD3072B15EF5ED00002A2A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDD3072D15EF5ED00002A2A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDD3073315EF5ED00002A2A1 /* CI-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CI-Demo-Info.plist"; sourceTree = "<group>"; };
+		FDD3073515EF5ED00002A2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD3073715EF5ED00002A2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD3073915EF5ED00002A2A1 /* CI-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CI-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		FDD3073A15EF5ED00002A2A1 /* IS24AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IS24AppDelegate.h; sourceTree = "<group>"; };
+		FDD3073B15EF5ED00002A2A1 /* IS24AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IS24AppDelegate.m; sourceTree = "<group>"; };
+		FDD3074C15EF5F390002A2A1 /* CI-Demo-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-Demo-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD3075315EF5F3A0002A2A1 /* CI-Demo-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CI-Demo-Tests-Info.plist"; sourceTree = "<group>"; };
+		FDD3075515EF5F3A0002A2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDD3075715EF5F3A0002A2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD3075915EF5F3A0002A2A1 /* CI-Demo-Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CI-Demo-Tests-Prefix.pch"; sourceTree = "<group>"; };
+		FDD3076015EF5F4A0002A2A1 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = lib/GHUnitIOS.framework; sourceTree = "<group>"; };
+		FDD3076215EF61730002A2A1 /* IS24ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24ExampleViewController.h; sourceTree = "<group>"; };
+		FDD3076315EF61730002A2A1 /* IS24ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24ExampleViewController.m; sourceTree = "<group>"; };
+		FDD3076415EF61730002A2A1 /* IS24ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IS24ExampleViewController.xib; sourceTree = "<group>"; };
+		FDD3076B15EF61F50002A2A1 /* IS24ExampleViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24ExampleViewControllerTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD12C0A616199B7D00467BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD12C0A716199B7D00467BAF /* UIKit.framework in Frameworks */,
+				FD12C0A816199B7D00467BAF /* Foundation.framework in Frameworks */,
+				FD12C0A916199B7D00467BAF /* CoreGraphics.framework in Frameworks */,
+				FD12C0B916199C5300467BAF /* libKIF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3072415EF5ED00002A2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3072C15EF5ED00002A2A1 /* UIKit.framework in Frameworks */,
+				FDD3072E15EF5ED00002A2A1 /* Foundation.framework in Frameworks */,
+				FDD3073015EF5ED00002A2A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3074915EF5F390002A2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3074E15EF5F390002A2A1 /* UIKit.framework in Frameworks */,
+				FDD3074F15EF5F390002A2A1 /* Foundation.framework in Frameworks */,
+				FDD3075015EF5F390002A2A1 /* CoreGraphics.framework in Frameworks */,
+				FDD3076115EF5F4A0002A2A1 /* GHUnitIOS.framework in Frameworks */,
+				FD4A188B16344DA600DBD58D /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD12C0B616199BD500467BAF /* CI-Demo-Integration-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD12C0C916199CD000467BAF /* IS24IntegrationTestController.h */,
+				FD12C0CA16199CD000467BAF /* IS24IntegrationTestController.m */,
+				FD12C0CD16199DB400467BAF /* IS24FirstTestScenario.h */,
+				FD12C0CE16199DB400467BAF /* IS24FirstTestScenario.m */,
+				FDC690C91619B313008698AD /* Supporting Files */,
+			);
+			path = "CI-Demo-Integration-Tests";
+			sourceTree = "<group>";
+		};
+		FD4A189116344E2A00DBD58D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A188E16344E2100DBD58D /* IS24SampleObject.h */,
+				FD4A188F16344E2100DBD58D /* IS24SampleObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD4A189216344E2F00DBD58D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3076215EF61730002A2A1 /* IS24ExampleViewController.h */,
+				FDD3076315EF61730002A2A1 /* IS24ExampleViewController.m */,
+				FDD3076415EF61730002A2A1 /* IS24ExampleViewController.xib */,
+				FD12C09B16199A4700467BAF /* IS24SecondViewController.h */,
+				FD12C09C16199A4700467BAF /* IS24SecondViewController.m */,
+				FD12C09D16199A4700467BAF /* IS24SecondViewController.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		FDC690C91619B313008698AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD12C0B416199B7E00467BAF /* CI-Demo-Integration-Tests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD3071C15EF5ED00002A2A1 = {
+			isa = PBXGroup;
+			children = (
+				FD73D1FC16353D0F0045E12F /* pom.xml */,
+				FDD3073115EF5ED00002A2A1 /* CI-Demo */,
+				FDD3075115EF5F3A0002A2A1 /* CI-Demo-Tests */,
+				FD12C0B616199BD500467BAF /* CI-Demo-Integration-Tests */,
+				FDD3072A15EF5ED00002A2A1 /* Frameworks */,
+				FDD3072815EF5ED00002A2A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD3072815EF5ED00002A2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3072715EF5ED00002A2A1 /* CI-Demo.app */,
+				FDD3074C15EF5F390002A2A1 /* CI-Demo-Tests.app */,
+				FD12C0B216199B7D00467BAF /* CI-Demo-Integration-Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD3072A15EF5ED00002A2A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A188A16344DA600DBD58D /* libOCMock.a */,
+				FD12C086161998BB00467BAF /* libKIF.a */,
+				FDD3076015EF5F4A0002A2A1 /* GHUnitIOS.framework */,
+				FDD3072B15EF5ED00002A2A1 /* UIKit.framework */,
+				FDD3072D15EF5ED00002A2A1 /* Foundation.framework */,
+				FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD3073115EF5ED00002A2A1 /* CI-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A189216344E2F00DBD58D /* View Controller */,
+				FD4A189116344E2A00DBD58D /* Model */,
+				FDD3073A15EF5ED00002A2A1 /* IS24AppDelegate.h */,
+				FDD3073B15EF5ED00002A2A1 /* IS24AppDelegate.m */,
+				FDD3073215EF5ED00002A2A1 /* Supporting Files */,
+			);
+			path = "CI-Demo";
+			sourceTree = "<group>";
+		};
+		FDD3073215EF5ED00002A2A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3073715EF5ED00002A2A1 /* main.m */,
+				FDD3073915EF5ED00002A2A1 /* CI-Demo-Prefix.pch */,
+				FDD3073315EF5ED00002A2A1 /* CI-Demo-Info.plist */,
+				FDD3073415EF5ED00002A2A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD3075115EF5F3A0002A2A1 /* CI-Demo-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3076B15EF61F50002A2A1 /* IS24ExampleViewControllerTest.m */,
+				FD4A188D16344DE000DBD58D /* IS24ExampleMockTest.m */,
+				FDD3075215EF5F3A0002A2A1 /* Supporting Files */,
+			);
+			path = "CI-Demo-Tests";
+			sourceTree = "<group>";
+		};
+		FDD3075215EF5F3A0002A2A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3075715EF5F3A0002A2A1 /* main.m */,
+				FDD3075915EF5F3A0002A2A1 /* CI-Demo-Tests-Prefix.pch */,
+				FDD3075315EF5F3A0002A2A1 /* CI-Demo-Tests-Info.plist */,
+				FDD3075415EF5F3A0002A2A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD12C0A016199B7D00467BAF /* CI-Demo-Integration-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD12C0AF16199B7D00467BAF /* Build configuration list for PBXNativeTarget "CI-Demo-Integration-Tests" */;
+			buildPhases = (
+				FD12C0A116199B7D00467BAF /* Sources */,
+				FD12C0A616199B7D00467BAF /* Frameworks */,
+				FD12C0AA16199B7D00467BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CI-Demo-Integration-Tests";
+			productName = "CI-Demo";
+			productReference = FD12C0B216199B7D00467BAF /* CI-Demo-Integration-Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD3072615EF5ED00002A2A1 /* CI-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD3074515EF5ED00002A2A1 /* Build configuration list for PBXNativeTarget "CI-Demo" */;
+			buildPhases = (
+				FDD3072315EF5ED00002A2A1 /* Sources */,
+				FDD3072415EF5ED00002A2A1 /* Frameworks */,
+				FDD3072515EF5ED00002A2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CI-Demo";
+			productName = "CI-Demo";
+			productReference = FDD3072715EF5ED00002A2A1 /* CI-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD3074B15EF5F390002A2A1 /* CI-Demo-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD3075D15EF5F3A0002A2A1 /* Build configuration list for PBXNativeTarget "CI-Demo-Tests" */;
+			buildPhases = (
+				FDD3074815EF5F390002A2A1 /* Sources */,
+				FDD3074915EF5F390002A2A1 /* Frameworks */,
+				FDD3074A15EF5F390002A2A1 /* Resources */,
+				FDD3077D15EF63830002A2A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CI-Demo-Tests";
+			productName = "CI-Demo-Tests";
+			productReference = FDD3074C15EF5F390002A2A1 /* CI-Demo-Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD3071E15EF5ED00002A2A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS24;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ImmobilienScout24;
+			};
+			buildConfigurationList = FDD3072115EF5ED00002A2A1 /* Build configuration list for PBXProject "CI-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD3071C15EF5ED00002A2A1;
+			productRefGroup = FDD3072815EF5ED00002A2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD3072615EF5ED00002A2A1 /* CI-Demo */,
+				FDD3074B15EF5F390002A2A1 /* CI-Demo-Tests */,
+				FD12C0A016199B7D00467BAF /* CI-Demo-Integration-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD12C0AA16199B7D00467BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD12C0AC16199B7D00467BAF /* IS24ExampleViewController.xib in Resources */,
+				FD12C0AE16199B7D00467BAF /* IS24SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3072515EF5ED00002A2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3073615EF5ED00002A2A1 /* InfoPlist.strings in Resources */,
+				FDD3076615EF61730002A2A1 /* IS24ExampleViewController.xib in Resources */,
+				FD12C09F16199A4700467BAF /* IS24SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3074A15EF5F390002A2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3075615EF5F3A0002A2A1 /* InfoPlist.strings in Resources */,
+				FDD3076D15EF62E60002A2A1 /* IS24ExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDD3077D15EF63830002A2A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = lib/PrepareUITests.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD12C0A116199B7D00467BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD12C0A316199B7D00467BAF /* IS24AppDelegate.m in Sources */,
+				FD12C0A416199B7D00467BAF /* IS24ExampleViewController.m in Sources */,
+				FD12C0A516199B7D00467BAF /* IS24SecondViewController.m in Sources */,
+				FD12C0CB16199CD000467BAF /* IS24IntegrationTestController.m in Sources */,
+				FD12C0CC16199D5400467BAF /* main.m in Sources */,
+				FD12C0CF16199DB400467BAF /* IS24FirstTestScenario.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3072315EF5ED00002A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3073815EF5ED00002A2A1 /* main.m in Sources */,
+				FDD3073C15EF5ED00002A2A1 /* IS24AppDelegate.m in Sources */,
+				FDD3076515EF61730002A2A1 /* IS24ExampleViewController.m in Sources */,
+				FD12C09E16199A4700467BAF /* IS24SecondViewController.m in Sources */,
+				FD4A189016344E2100DBD58D /* IS24SampleObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD3074815EF5F390002A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD3075815EF5F3A0002A2A1 /* main.m in Sources */,
+				FDD3076715EF61780002A2A1 /* IS24ExampleViewController.m in Sources */,
+				FDD3076C15EF628E0002A2A1 /* IS24ExampleViewControllerTest.m in Sources */,
+				FD12C0D01619A9EB00467BAF /* IS24SecondViewController.m in Sources */,
+				FD4A189316344E4600DBD58D /* IS24ExampleMockTest.m in Sources */,
+				FD4A189416344E5E00DBD58D /* IS24SampleObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD3073415EF5ED00002A2A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD3073515EF5ED00002A2A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDD3075415EF5F3A0002A2A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD3075515EF5F3A0002A2A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD12C0B016199B7D00467BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo/CI-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = "include/**";
+				INFOPLIST_FILE = "CI-Demo-Integration-Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "CI-Demo-Integration-Tests";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD12C0B116199B7D00467BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo/CI-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = "include/**";
+				INFOPLIST_FILE = "CI-Demo-Integration-Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "CI-Demo-Integration-Tests";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDD3074315EF5ED00002A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD3074415EF5ED00002A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD3074615EF5ED00002A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo/CI-Demo-Prefix.pch";
+				INFOPLIST_FILE = "CI-Demo/CI-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD3074715EF5ED00002A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo/CI-Demo-Prefix.pch";
+				INFOPLIST_FILE = "CI-Demo/CI-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDD3075E15EF5F3A0002A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo-Tests/CI-Demo-Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "include/**";
+				INFOPLIST_FILE = "CI-Demo-Tests/CI-Demo-Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD3075F15EF5F3A0002A2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CI-Demo-Tests/CI-Demo-Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "include/**";
+				INFOPLIST_FILE = "CI-Demo-Tests/CI-Demo-Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD12C0AF16199B7D00467BAF /* Build configuration list for PBXNativeTarget "CI-Demo-Integration-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD12C0B016199B7D00467BAF /* Debug */,
+				FD12C0B116199B7D00467BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD3072115EF5ED00002A2A1 /* Build configuration list for PBXProject "CI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD3074315EF5ED00002A2A1 /* Debug */,
+				FDD3074415EF5ED00002A2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD3074515EF5ED00002A2A1 /* Build configuration list for PBXNativeTarget "CI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD3074615EF5ED00002A2A1 /* Debug */,
+				FDD3074715EF5ED00002A2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD3075D15EF5F3A0002A2A1 /* Build configuration list for PBXNativeTarget "CI-Demo-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD3075E15EF5F3A0002A2A1 /* Debug */,
+				FDD3075F15EF5F3A0002A2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD3071E15EF5ED00002A2A1 /* Project object */;
+}

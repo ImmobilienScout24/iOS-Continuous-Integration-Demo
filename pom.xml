@@ -1,0 +1,24 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.felixschulze</groupId>
+    <artifactId>ci-demo</artifactId>
+    <packaging>xcode</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>CI-Demo</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>de.felixschulze.maven.plugins.xcode</groupId>
+                <artifactId>xcode-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <configuration>
+                    <xcodeProject>CI-Demo.xcodeproj</xcodeProject>
+                    <xcodeTarget>CI-Demo</xcodeTarget>
+                    <xcodeConfiguration>Debug</xcodeConfiguration>
+                    <xcodeSdk>iphonesimulator</xcodeSdk>
+                </configuration>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
