@@ -32,4 +32,8 @@
     urlRequest.HTTPMethod = @"GET";
 }
 
+- (void) someMethodWhichIsNotBeenCalled {
+    NSLog(@"Do nothing");
+}
+
 @end

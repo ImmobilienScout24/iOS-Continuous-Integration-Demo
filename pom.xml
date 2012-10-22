@@ -21,4 +21,28 @@
             </plugin>
         </plugins>
     </build>
+    
+    <profiles>
+        <profile>
+            <id>test</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>de.felixschulze.maven.plugins.xcode</groupId>
+                        <artifactId>xcode-maven-plugin</artifactId>
+                        <configuration>
+                            <xcodeSdk>iphonesimulator6.0</xcodeSdk>
+                            <xcodeConfiguration>Debug</xcodeConfiguration>
+                            <xcodeTarget>CI-Demo-Tests</xcodeTarget>
+                            <appName>CI-Demo-Tests</appName>
+                            <executeGHUnitTests>true</executeGHUnitTests>
+                            <generateCoverageReport>true</generateCoverageReport>
+                            <coverageTarget>CI-Demo</coverageTarget>
+                            <teamCityLog>true</teamCityLog>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
