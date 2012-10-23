@@ -26,6 +26,12 @@
 		FD4A189016344E2100DBD58D /* IS24SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188F16344E2100DBD58D /* IS24SampleObject.m */; };
 		FD4A189316344E4600DBD58D /* IS24ExampleMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188D16344DE000DBD58D /* IS24ExampleMockTest.m */; };
 		FD4A189416344E5E00DBD58D /* IS24SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A188F16344E2100DBD58D /* IS24SampleObject.m */; };
+		FD9357EB1636A00800588721 /* AFNetworkDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357EA1636A00800588721 /* AFNetworkDummy.m */; };
+		FD9357EE1636A07B00588721 /* IS24AFNetworkDummyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357ED1636A06900588721 /* IS24AFNetworkDummyTest.m */; };
+		FD9357F21636A2EB00588721 /* AFNetworkDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357EA1636A00800588721 /* AFNetworkDummy.m */; };
+		FD9357F31636A2EC00588721 /* AFNetworkDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357EA1636A00800588721 /* AFNetworkDummy.m */; };
+		FD9357FB1636B2DF00588721 /* IS24Static.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357FA1636B2DF00588721 /* IS24Static.m */; };
+		FD9357FC1636B31000588721 /* IS24MethodExchangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9357F71636B28D00588721 /* IS24MethodExchangeTest.m */; };
 		FDD3072C15EF5ED00002A2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072B15EF5ED00002A2A1 /* UIKit.framework */; };
 		FDD3072E15EF5ED00002A2A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072D15EF5ED00002A2A1 /* Foundation.framework */; };
 		FDD3073015EF5ED00002A2A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD3072F15EF5ED00002A2A1 /* CoreGraphics.framework */; };
@@ -61,6 +67,12 @@
 		FD4A188E16344E2100DBD58D /* IS24SampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24SampleObject.h; sourceTree = "<group>"; };
 		FD4A188F16344E2100DBD58D /* IS24SampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24SampleObject.m; sourceTree = "<group>"; };
 		FD73D1FC16353D0F0045E12F /* pom.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pom.xml; sourceTree = "<group>"; };
+		FD9357E91636A00800588721 /* AFNetworkDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkDummy.h; sourceTree = "<group>"; };
+		FD9357EA1636A00800588721 /* AFNetworkDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkDummy.m; sourceTree = "<group>"; };
+		FD9357ED1636A06900588721 /* IS24AFNetworkDummyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IS24AFNetworkDummyTest.m; sourceTree = "<group>"; };
+		FD9357F71636B28D00588721 /* IS24MethodExchangeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IS24MethodExchangeTest.m; sourceTree = "<group>"; };
+		FD9357F91636B2DF00588721 /* IS24Static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS24Static.h; sourceTree = "<group>"; };
+		FD9357FA1636B2DF00588721 /* IS24Static.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS24Static.m; sourceTree = "<group>"; };
 		FDD3072715EF5ED00002A2A1 /* CI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD3072B15EF5ED00002A2A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDD3072D15EF5ED00002A2A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +166,24 @@
 			name = "View Controller";
 			sourceTree = "<group>";
 		};
+		FD9357F61636A67200588721 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FD9357E91636A00800588721 /* AFNetworkDummy.h */,
+				FD9357EA1636A00800588721 /* AFNetworkDummy.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FD9357F81636B2C300588721 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FD9357F91636B2DF00588721 /* IS24Static.h */,
+				FD9357FA1636B2DF00588721 /* IS24Static.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		FDC690C91619B313008698AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +230,7 @@
 		FDD3073115EF5ED00002A2A1 /* CI-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FD9357F61636A67200588721 /* Helper */,
 				FD4A189216344E2F00DBD58D /* View Controller */,
 				FD4A189116344E2A00DBD58D /* Model */,
 				FDD3073A15EF5ED00002A2A1 /* IS24AppDelegate.h */,
@@ -223,9 +254,12 @@
 		FDD3075115EF5F3A0002A2A1 /* CI-Demo-Tests */ = {
 			isa = PBXGroup;
 			children = (
+				FD9357F81636B2C300588721 /* Helper */,
 				FDD3076B15EF61F50002A2A1 /* IS24ExampleViewControllerTest.m */,
 				FD4A188D16344DE000DBD58D /* IS24ExampleMockTest.m */,
 				FDD3075215EF5F3A0002A2A1 /* Supporting Files */,
+				FD9357ED1636A06900588721 /* IS24AFNetworkDummyTest.m */,
+				FD9357F71636B28D00588721 /* IS24MethodExchangeTest.m */,
 			);
 			path = "CI-Demo-Tests";
 			sourceTree = "<group>";
@@ -384,6 +418,7 @@
 				FD12C0CB16199CD000467BAF /* IS24IntegrationTestController.m in Sources */,
 				FD12C0CC16199D5400467BAF /* main.m in Sources */,
 				FD12C0CF16199DB400467BAF /* IS24FirstTestScenario.m in Sources */,
+				FD9357F31636A2EC00588721 /* AFNetworkDummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +431,7 @@
 				FDD3076515EF61730002A2A1 /* IS24ExampleViewController.m in Sources */,
 				FD12C09E16199A4700467BAF /* IS24SecondViewController.m in Sources */,
 				FD4A189016344E2100DBD58D /* IS24SampleObject.m in Sources */,
+				FD9357EB1636A00800588721 /* AFNetworkDummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +445,10 @@
 				FD12C0D01619A9EB00467BAF /* IS24SecondViewController.m in Sources */,
 				FD4A189316344E4600DBD58D /* IS24ExampleMockTest.m in Sources */,
 				FD4A189416344E5E00DBD58D /* IS24SampleObject.m in Sources */,
+				FD9357EE1636A07B00588721 /* IS24AFNetworkDummyTest.m in Sources */,
+				FD9357F21636A2EB00588721 /* AFNetworkDummy.m in Sources */,
+				FD9357FB1636B2DF00588721 /* IS24Static.m in Sources */,
+				FD9357FC1636B31000588721 /* IS24MethodExchangeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
