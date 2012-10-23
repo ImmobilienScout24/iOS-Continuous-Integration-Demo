@@ -24,7 +24,7 @@
 + (KIFTestScenario *)scenarioToEnterUserData {
     KIFTestScenario *scenario = [KIFTestScenario scenarioWithDescription:[NSString stringWithFormat:@"Enter user data"]];
     
-    scenario.stepsToSetUp = @[[KIFTestStep stepToTapViewWithAccessibilityLabel:@"Button"]];
+    scenario.stepsToSetUp = @[[KIFTestStep stepToTapViewWithAccessibilityLabel:@"Open Dialog"]];
     
     [scenario addStep:[KIFTestStep stepToEnterText:@"Felix" intoViewWithAccessibilityLabel:@"firstname"]];
     [scenario addStep:[KIFTestStep stepToEnterText:@"Schulze" intoViewWithAccessibilityLabel:@"lastname"]];
