@@ -9,3 +9,11 @@ The following tools/frameworks are used in this example:
 2. OCMock: https://github.com/erikdoe/ocmock
 3. KIF: https://github.com/square/KIF
 4. Xcode-Maven-Plugin: https://github.com/x2on/xcode-maven-plugin
+
+##Example
+
+### Build app
+```mvn compile```
+
+### Run tests
+```mvn test -P test```
