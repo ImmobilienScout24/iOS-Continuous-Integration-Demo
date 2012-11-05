@@ -44,5 +44,31 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+            <id>integration-test</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>de.felixschulze.maven.plugins.xcode</groupId>
+                        <artifactId>xcode-maven-plugin</artifactId>
+                        <configuration>
+                            <xcodeTarget>CI-Demo-Integration-Tests</xcodeTarget>
+                            <appName>CI-Demo-Integration-Tests</appName>
+                            <testDevice>iphone</testDevice>
+                            <executeKIFIntegrationTests>true</executeKIFIntegrationTests>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>integration-tests</id>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>kif-integration-test</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
 </project>

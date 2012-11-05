@@ -17,3 +17,7 @@ The following tools/frameworks are used in this example:
 
 ### Run tests
 ```mvn test -P test```
+
+### Run integration tests
+```mvn test -P integration-test```
+
